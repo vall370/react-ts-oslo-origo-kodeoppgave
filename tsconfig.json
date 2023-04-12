@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "outDir": "build",
+        "sourceMap": true,
+        "strict": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "jsx": "react",
+        "module": "esnext",
+        "target": "es5",
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "esnext"
+        ]
+    },
+    "include": [
+        "src"
+    ]
+}

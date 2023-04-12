@@ -1,0 +1,46 @@
+.stations-list {
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.station-item {
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.station-item h2 {
+    margin-bottom: 10px;
+}
+
+.station-info {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.station-info>div {
+    display: flex;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.station-info p {
+    margin: 0;
+}
+
+.station-info>div>p:first-child {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
